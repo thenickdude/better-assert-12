@@ -1,0 +1,16 @@
+{
+  "name": "better-assert-12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-babel-node": "babel-node index.js",
+    "test-precompile": "babel index.js --out-file index-out.js && node index-out.js"
+  },
+  "author": "",
+  "homepage": "https://github.com/thenickdude/better-assert-12",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "better-assert": "^1.0.2"
+  }
+}
